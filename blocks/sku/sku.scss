@@ -1,0 +1,47 @@
+.sku{
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  &__back{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    opacity: .15;
+    overflow: hidden;
+  }
+  &__block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+  &__img{
+    max-width: 800px;
+  }
+  &__subtitle{
+    font-family: 'Inter';
+    font-size: 30px;
+  }
+  &__title{
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-size: 40px;
+    background: none;
+  }
+  &__pre{
+    font-family: 'Inter';
+    font-size: 20px;
+  }
+  &__picture{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 200px;
+    opacity: .7;
+  }
+}

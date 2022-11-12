@@ -1,0 +1,47 @@
+.sku {
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.sku__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.15;
+  overflow: hidden;
+}
+.sku__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+.sku__img {
+  max-width: 800px;
+}
+.sku__subtitle {
+  font-family: "Inter";
+  font-size: 30px;
+}
+.sku__title {
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-size: 40px;
+  background: none;
+}
+.sku__pre {
+  font-family: "Inter";
+  font-size: 20px;
+}
+.sku__picture {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 200px;
+  opacity: 0.7;
+}/*# sourceMappingURL=sku.css.map */

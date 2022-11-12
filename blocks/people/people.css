@@ -1,0 +1,22 @@
+.people {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.people__title {
+  font-size: 100px;
+  font-weight: 600;
+  color: #e0c5df;
+}
+.people__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}/*# sourceMappingURL=people.css.map */
